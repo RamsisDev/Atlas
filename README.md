@@ -1,13 +1,13 @@
-# ATLAS — Autonomous Task Loop with Agent Specialization [![Spec Version](https://img.shields.io/badge/ATLAS-v1.0-blue)](./docs/ATLAS_v1_0_Unified.md) [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](./LICENSE) 
+# ATLAS - Autonomous Task Loop with Agent Specialization [![Spec Version](https://img.shields.io/badge/ATLAS-v1.0-blue)](./docs/ATLAS_v1_0_Unified.md) [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](./LICENSE) [![Status](https://img.shields.io/badge/status-early%20development-olive)](./ROADMAP.md)
 
 > A complete, production-ready specification and implementation library for multi-department autonomous software development pipelines powered by Claude.
-[![Status](https://img.shields.io/badge/status-early%20development-olive)](./ROADMAP.md)
+
 
 ---
 
 ## What is ATLAS?
 
-ATLAS transforms a natural-language feature request into implemented, tested, security-audited, and reconciled code — with no manual hand-off between stages.
+ATLAS transforms a natural-language feature request into implemented, tested, security-audited, and reconciled code - with no manual hand-off between stages.
 
 It is built on six established patterns unified into a single coherent pipeline:
 
@@ -57,7 +57,7 @@ User
 
 **4. Skills-driven specialization.** Skills are reusable capability modules loaded on demand per task. A Dev Agent working on domain layer loads `csharp-domain.skill.md` and `ddd-aggregates.skill.md`. A QA Agent testing APIs loads `integration-testing.skill.md` and `owasp-top10.skill.md`.
 
-**5. Deterministic coordination by design.** File-scope overlap is validated at Gate C before execution begins. If D03 guarantees no two tasks in the same parallel group touch the same file, runtime locks are unnecessary — and eliminated entirely.
+**5. Deterministic coordination by design.** File-scope overlap is validated at Gate C before execution begins. If D03 guarantees no two tasks in the same parallel group touch the same file, runtime locks are unnecessary - and eliminated entirely.
 
 ---
 
@@ -98,7 +98,7 @@ atlas/
 │   ├── constitution-proposals/
 │   ├── shared-proposals/
 │   ├── architecture/
-│   ├── specs/                 # Approved specs — single source of truth
+│   ├── specs/                 # Approved specs - single source of truth
 │   └── changes/               # Active deltas + archive
 │
 ├── examples/
@@ -251,12 +251,8 @@ claude "Read departments/orchestrator/AGENT.md and start the ATLAS pipeline for 
 
 | Document | Description |
 |---|---|
-| [ATLAS v1.0 Specification](./docs/ATLAS_v1_0_Unified.md) | Complete system specification — all 20 sections |
 | [SDD Methods Guide](./docs/SDD_Methods_Guide.md) | 8 methods compared: GSD, Ralph Loop, OpenSpec, TaskMaster, Spec-Kit, Kiro, BMAD, Tessl |
-| [Fractal BMAD v2](./docs/Fractal_BMAD_v2.md) | Previous version — reference for migration |
-| [Gap Resolution Proposals](./docs/Gap_Resolution_Proposals.md) | 15 gaps identified and resolved in ATLAS |
 | [Optimal Prompt Formats](./docs/Optimal_Prompt_Formats.md) | Evidence-based guide for Claude agent prompts |
-| [ROADMAP.md](./ROADMAP.md) | Detailed implementation roadmap with phase tracking |
 
 ---
 
@@ -288,7 +284,7 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting a PR. All age
 
 ## License
 
-Creative Commons Attribution-NonCommercial 4.0 International — see [LICENSE](./LICENSE) for details.
+Creative Commons Attribution-NonCommercial 4.0 International - see [LICENSE](./LICENSE) for details.
 
 ---
 
