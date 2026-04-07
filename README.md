@@ -117,29 +117,29 @@ The system is built in four phases. Each phase unlocks the next.
 ### Phase 1 — Make it executable
 *Nothing runs without these.*
 
-- [ x ] Spawn primitives: `spawn()`, `spawn_batch()`, `spawn_sequential()` — Claude Code and API implementations
-- [ x ] D00 Pipeline Orchestrator + Gate Validator agent
-- [ x ] `delta-spec.md` standard format (ADDED / MODIFIED / REMOVED)
-- [ x ] Skills architecture: folder structure + `.skill.md` format
-- [ x ] Universal Ralph Protocol: `{agent}-state.md` template and 8-step contract
+- [x] Spawn primitives: `spawn()`, `spawn_batch()`, `spawn_sequential()` — Claude Code and API implementations
+- [x] D00 Pipeline Orchestrator + Gate Validator agent
+- [x] `delta-spec.md` standard format (ADDED / MODIFIED / REMOVED)
+- [x] Skills architecture: folder structure + `.skill.md` format
+- [x] Universal Ralph Protocol: `{agent}-state.md` template and 8-step contract
 
 ### Phase 2 — Make it safe
 *Recovery, coordination, no race conditions.*
 
-- [ x ] File-scope overlap check at Gate C (replaces the entire `locks/` directory)
-- [ x ] Department checkpoint protocol (`dept-checkpoint.md` + D00 recovery strategies)
-- [ x ] Interface Contract protocol (`{Entity}.contract.md` in `contracts/`)
-- [ x ] Software Architect Agent (D04, read-only, max 2 iterations)
-- [ x ] Integration Agent (D04, contract verification + integration testing, max 3 iterations)
+- [x] File-scope overlap check at Gate C (replaces the entire `locks/` directory)
+- [x] Department checkpoint protocol (`dept-checkpoint.md` + D00 recovery strategies)
+- [x] Interface Contract protocol (`{Entity}.contract.md` in `contracts/`)
+- [x] Software Architect Agent (D04, read-only, max 2 iterations)
+- [x] Integration Agent (D04, contract verification + integration testing, max 3 iterations)
 
 ### Phase 3 — Make it performant
 *Parallel QA, multi-feature isolation, better triage.*
 
-- [ x ] Parallel QA groups (QA Root: 6 iters · QA sub-agents: 2 iters each)
-- [ x ] Overview Agent read-only code access (+Read, Glob, Grep tools)
-- [ x ] Multi-feature isolation via git branches + `shared-proposals/`
-- [ x ] Escalation Router agent + Dependency Vulnerability Scanner (D05)
-- [ x ] Constitution Steward (batches all `shared-proposals/` in a single controlled pass)
+- [x] Parallel QA groups (QA Root: 6 iters · QA sub-agents: 2 iters each)
+- [x] Overview Agent read-only code access (+Read, Glob, Grep tools)
+- [x] Multi-feature isolation via git branches + `shared-proposals/`
+- [x] Escalation Router agent + Dependency Vulnerability Scanner (D05)
+- [x] Constitution Steward (batches all `shared-proposals/` in a single controlled pass)
 
 ### Phase 4 — Polish
 *Metrics, scoring refinement, minor agents.*
