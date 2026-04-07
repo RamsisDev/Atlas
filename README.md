@@ -1,4 +1,4 @@
-# ATLAS - Autonomous Task Loop with Agent Specialization [![Spec Version](https://img.shields.io/badge/ATLAS-v1.0-blue)](./docs/ATLAS_v1_0_Unified.md) [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](./LICENSE) [![Status](https://img.shields.io/badge/status-early%20development-olive)](./ROADMAP.md)
+# ATLAS - Autonomous Task Loop with Agent Specialization [![Spec Version](https://img.shields.io/badge/ATLAS-v1.0-blue)](./docs/ATLAS_v1_0_Unified.md) [![License](https://img.shields.io/badge/license-MIT%20%2B%20Commons%20Clause-lightgrey)](./LICENSE) [![Status](https://img.shields.io/badge/status-early%20development-olive)](./ROADMAP.md)
 
 > A complete, production-ready specification and implementation library for multi-department autonomous software development pipelines powered by Claude.
 
@@ -284,7 +284,7 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting a PR. All age
 
 ## License
 
-Creative Commons Attribution-NonCommercial 4.0 International - see [LICENSE](./LICENSE) for details.
+MIT + Commons Clause — free to use and modify, but not to sell. See [LICENSE](./LICENSE) for details.
 
 ---
 
